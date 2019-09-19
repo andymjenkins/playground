@@ -1,3 +1,5 @@
-language: bash
+language: generic
+dist: xenial
+sudo: required
 script:
- - bash  testhello.sh
+- bash testhello.sh
